@@ -241,3 +241,114 @@
 # # print(c.childs_method())
 # print(c.grandparents_method())
 
+# import numpy as np
+# # arr1 = np.array([1,2,3,4])
+# # arr2 = np.flip(arr1)
+# # print(arr2)
+#
+# arr1 = np.array([1,2,3,4])
+# # arr2 = arr1[::-1]
+# # print(arr2, end=",")
+#
+# # print(arr1[element])
+# print(arr1[1])
+# x=np.delete(arr1, 2)
+# print(x)
+# # array_name[index] = element
+# arr1[2] = 5
+# print(arr1)
+
+# list1 = ["w", "a", "w", "b"]
+# list2 = ["e", "", "riting", "log"]
+# list3 = [x+y for x,y in zip(list1, list2)]
+# print(list3)
+
+# list1 = [1,2,3,4]
+# list2 =[]
+# for x in list1:
+#     list2.append(x*x)
+# print(list2)
+
+# a = 'This is a String'
+# li =a.split(" ")
+# print(li)
+# "".join(li)
+# print(li)
+
+# s = "       Hello, World!           "
+# print(len(s))
+# print(s.strip())
+
+# print(s.replace("World", "Universe"))
+# print(s.split(','))
+#
+# print(s.upper())
+# print(s.lower())
+# print(s.capitalize())
+# print(s.isalnum())
+# print(s.isalpha())
+
+# x=10
+# def func():
+#     x=5
+#     print(x)
+# func()
+# print(x)
+
+# a=lambda x:x+10
+# print(a(5))
+
+# from math import sqrt
+#
+# def prime_or_not(number):
+#     for i in range(2, int(sqrt(number)) + 1):
+#         if number % i == 0:
+#             return 0
+#     return 1
+#
+# # prime_or_not(2)
+# print(prime_or_not(98))
+
+# def factorial(n):
+#     if n==1:
+#         return n
+#     else:
+#         return n * factorial(n-1)
+# print(factorial(5))
+
+# from functools import reduce
+# a=reduce(lambda x,y:x if x<y else y)
+# print(a(2,3))
+
+# a=[i for i in range(10) if i % 2 != 0]
+# print(a)
+
+# # dict_[min(dict_.keys(), key=(lambda k: dict_[k]))]
+# def mean_tuple(numbers):
+#     result = [sum(x)/len(x) for x in zip(*numbers)]
+#     return result
+
+# import numpy as np
+# a=np.array([[1,2], [3,4]])
+# b=np.array([[5,6]])
+# c=np.concatenate((a,b), axis=0)
+# print(c)
+
+# result=np.char.join(",", array)
+
+# New_arr = np.pad[existing_arr, pad_width=1, mode='constant', constant_value=1]
+# np.swapaxes(arr,0,1)
+
+# array.argsort() [ -N: ] [: : -1]
+
+# df["column"] = df["column"].astype(int)
+
+# df.sort_values(by=['col1', 'col2'])
+
+# df['column'].idmax()
+
+# df.pct_change(periods=1)
+
+# df.std()/df.mean()
+
+numpy.unique(list, return_counts=True)
